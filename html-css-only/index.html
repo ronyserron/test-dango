@@ -12,17 +12,20 @@
 <body>
 
 	<main>
-		<div class="container px-4 max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 py-8 font-['Open_Sans']">
+		<div itemscope itemtype="https://schema.org/ItemList" class="container px-4 max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 py-8 font-['Open_Sans']">
 			
-			<article class="p-7 border-[3px] border-black">
+			<article itemprop="itemListElement" itemtype="https://schema.org/Product" class="p-7 border-[3px] border-black productItem">
 				<header class="flex flex-col items-center sm:items-start">
 					<picture>
 						<source type="image/webp" srcset="assets/img/product-img-blue.webp">
-						<img src="assets/img/product-img-blue.png" alt="Image of Tourmaline & Eucalyptus Bar Soap" class="mb-7">
+						<img itemprop="image" src="assets/img/product-img-blue.png" alt="Image of Tourmaline & Eucalyptus Bar Soap" class="mb-7">
 					</picture>
-					<h2 class="pb-7 font-bold text-xl leading-tight">Tourmaline & Eucalyptus Bar Soap</h2>
+					<h2 itemprop="name" class="pb-7 font-bold text-xl leading-tight">Tourmaline & Eucalyptus Bar Soap</h2>
 					<div class="flex flex-column items-center pb-5">
-						<span class="font-bold text-xl">$12.00</span>
+						<div itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+							<meta property="priceCurrency" content="USD">
+            				<span itemprop="price" class="font-bold text-xl" content="12.00">$12.00</span>
+						</div>
 						<input class="border border-gray-400 w-12 text-center ml-2" type="number" min="1" value="1" aria-label="Quantity">
 					</div>					
 				</header>
@@ -30,20 +33,23 @@
 					<p class="text-[#787677] text-sm text-center sm:text-left">Recarge your skin with the super energizing power of finely crusched tourmaline powder blended with natural complexion</p>
 				</div>
 				<footer class="flex flex-col items-center pt-2">
-					<button type="button" class="border-2 border-black text-lg bg-purple-100 hover:bg-purple-300 transition-colors py-2 px-5 mb-3">Add to cart</button>
+					<button type="button" class="border-2 border-black text-lg bg-purple-100 hover:bg-purple-300 transition-colors duration-300 py-2 px-5 mb-3">Add to cart</button>
 					<a href="#" class="underline hover:no-underline mb-4 text-lg">Learn More</a>
 				</footer>
 			</article>
 
-			<article class="p-7 border-[3px] border-black">
+			<article itemprop="itemListElement" itemtype="https://schema.org/Product" class="p-7 border-[3px] border-black productItem">
 				<header class="flex flex-col items-center sm:items-start">
 					<picture>
 						<source type="image/webp" srcset="assets/img/product-img-yellow.webp">
-						<img src="assets/img/product-img-yellow.png" alt="Image of Tourmaline & Eucalyptus Bar Soap" class="mb-7">
+						<img itemprop="image" src="assets/img/product-img-yellow.png" alt="Image of Tourmaline & Eucalyptus Bar Soap" class="mb-7">
 					</picture>
-					<h2 class="pb-7 font-bold text-xl leading-tight">Tourmaline & Eucalyptus Bar Soap</h2>
+					<h2 itemprop="name" class="pb-7 font-bold text-xl leading-tight">Tourmaline & Eucalyptus Bar Soap</h2>
 					<div class="flex flex-column items-center pb-5">
-						<span class="font-bold text-xl">$12.00</span>
+						<div itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+							<meta property="priceCurrency" content="USD">
+            				<span itemprop="price" class="font-bold text-xl" content="12.00">$12.00</span>
+						</div>
 						<input class="border border-gray-400 w-12 text-center ml-2" type="number" min="1" value="1" aria-label="Quantity">
 					</div>
 				</header>
@@ -51,20 +57,23 @@
 					<p class="text-[#787677] text-sm">Recarge your skin with the super energizing power of finely crusched tourmaline powder blended with natural complexion</p>
 				</div>
 				<footer class="flex flex-col items-center pt-2">
-					<button type="button" class="border-2 border-black text-lg bg-purple-100 hover:bg-purple-300 transition-colors py-2 px-5 mb-3">Add to cart</button>
+					<button type="button" class="border-2 border-black text-lg bg-purple-100 hover:bg-purple-300 transition-colors duration-300 py-2 px-5 mb-3">Add to cart</button>
 					<a href="#" class="underline hover:no-underline mb-4 text-lg">Learn More</a>
 				</footer>
 			</article>
 
-			<article class="p-7 border-[3px] border-black">
+			<article itemprop="itemListElement" itemtype="https://schema.org/Product" class="p-7 border-[3px] border-black productItem">
 				<header class="flex flex-col items-center sm:items-start">
 					<picture>
 						<source type="image/webp" srcset="assets/img/product-img-green.webp">
-						<img src="assets/img/product-img-green.png" alt="Image of Tourmaline & Eucalyptus Bar Soap" class="mb-7">
+						<img itemprop="image" src="assets/img/product-img-green.png" alt="Image of Tourmaline & Eucalyptus Bar Soap" class="mb-7">
 					</picture>
-					<h2 class="pb-7 font-bold text-xl leading-tight">Tourmaline & Eucalyptus Bar Soap</h2>
+					<h2 itemprop="name" class="pb-7 font-bold text-xl leading-tight">Tourmaline & Eucalyptus Bar Soap</h2>
 					<div class="flex flex-column items-center pb-5">
-						<span class="font-bold text-xl">$12.00</span>
+						<div itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+							<meta property="priceCurrency" content="USD">
+            				<span itemprop="price" class="font-bold text-xl" content="12.00">$12.00</span>
+						</div>
 						<input class="border border-gray-400 w-12 text-center ml-2" type="number" min="1" value="1" aria-label="Quantity">
 					</div>
 				</header>
@@ -72,20 +81,23 @@
 					<p class="text-[#787677] text-sm">Recarge your skin with the super energizing power of finely crusched tourmaline powder blended with natural complexion</p>
 				</div>
 				<footer class="flex flex-col items-center pt-2">
-					<button type="button" class="border-2 border-black text-lg bg-purple-100 hover:bg-purple-300 transition-colors py-2 px-5 mb-3">Add to cart</button>
+					<button type="button" class="border-2 border-black text-lg bg-purple-100 hover:bg-purple-300 transition-colors duration-300 py-2 px-5 mb-3">Add to cart</button>
 					<a href="#" class="underline hover:no-underline mb-4 text-lg">Learn More</a>
 				</footer>
 			</article>
 
-			<article class="p-7 border-[3px] border-black">
+			<article itemprop="itemListElement" itemtype="https://schema.org/Product" class="p-7 border-[3px] border-black productItem">
 				<header class="flex flex-col items-center sm:items-start">
 					<picture>
 						<source type="image/webp" srcset="assets/img/product-img-violet.webp">
-						<img src="assets/img/product-img-violet.png" alt="Image of Tourmaline & Eucalyptus Bar Soap" class="mb-7">
+						<img itemprop="image" src="assets/img/product-img-violet.png" alt="Image of Tourmaline & Eucalyptus Bar Soap" class="mb-7">
 					</picture>
-					<h2 class="pb-7 font-bold text-xl leading-tight">Tourmaline & Eucalyptus Bar Soap</h2>
+					<h2 itemprop="name" class="pb-7 font-bold text-xl leading-tight">Tourmaline & Eucalyptus Bar Soap</h2>
 					<div class="flex flex-column items-center pb-5">
-						<span class="font-bold text-xl">$12.00</span>
+						<div itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+							<meta property="priceCurrency" content="USD">
+            				<span itemprop="price" class="font-bold text-xl" content="12.00">$12.00</span>
+						</div>
 						<input class="border border-gray-400 w-12 text-center ml-2" type="number" min="1" value="1" aria-label="Quantity">
 					</div>
 				</header>
@@ -93,20 +105,23 @@
 					<p class="text-[#787677] text-sm">Recarge your skin with the super energizing power of finely crusched tourmaline powder blended with natural complexion</p>
 				</div>
 				<footer class="flex flex-col items-center pt-2">
-					<button type="button" class="border-2 border-black text-lg bg-purple-100 hover:bg-purple-300 transition-colors py-2 px-5 mb-3">Add to cart</button>
+					<button type="button" class="border-2 border-black text-lg bg-purple-100 hover:bg-purple-300 transition-colors duration-300 py-2 px-5 mb-3">Add to cart</button>
 					<a href="#" class="underline hover:no-underline mb-4 text-lg">Learn More</a>
 				</footer>
 			</article>
 
-			<article class="p-7 border-[3px] border-black">
+			<article itemprop="itemListElement" itemtype="https://schema.org/Product" class="p-7 border-[3px] border-black productItem">
 				<header class="flex flex-col items-center sm:items-start">
 					<picture>
 						<source type="image/webp" srcset="assets/img/product-img-green.webp">
-						<img src="assets/img/product-img-green.png" alt="Image of Tourmaline & Eucalyptus Bar Soap" class="mb-7">
+						<img itemprop="image" src="assets/img/product-img-green.png" alt="Image of Tourmaline & Eucalyptus Bar Soap" class="mb-7">
 					</picture>
-					<h2 class="pb-7 font-bold text-xl leading-tight">Tourmaline & Eucalyptus Bar Soap</h2>
+					<h2 itemprop="name" class="pb-7 font-bold text-xl leading-tight">Tourmaline & Eucalyptus Bar Soap</h2>
 					<div class="flex flex-column items-center pb-5">
-						<span class="font-bold text-xl">$12.00</span>
+						<div itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+							<meta property="priceCurrency" content="USD">
+            				<span itemprop="price" class="font-bold text-xl" content="12.00">$12.00</span>
+						</div>
 						<input class="border border-gray-400 w-12 text-center ml-2" type="number" min="1" value="1" aria-label="Quantity">
 					</div>
 				</header>
@@ -114,20 +129,23 @@
 					<p class="text-[#787677] text-sm">Recarge your skin with the super energizing power of finely crusched tourmaline powder blended with natural complexion</p>
 				</div>
 				<footer class="flex flex-col items-center pt-2">
-					<button type="button" class="border-2 border-black text-lg bg-purple-100 hover:bg-purple-300 transition-colors py-2 px-5 mb-3">Add to cart</button>
+					<button type="button" class="border-2 border-black text-lg bg-purple-100 hover:bg-purple-300 transition-colors duration-300 py-2 px-5 mb-3">Add to cart</button>
 					<a href="#" class="underline hover:no-underline mb-4 text-lg">Learn More</a>
 				</footer>
 			</article>
 
-			<article class="p-7 border-[3px] border-black">
+			<article itemprop="itemListElement" itemtype="https://schema.org/Product" class="p-7 border-[3px] border-black productItem">
 				<header class="flex flex-col items-center sm:items-start">
 					<picture>
 						<source type="image/webp" srcset="assets/img/product-img-violet.webp">
-						<img src="assets/img/product-img-violet.png" alt="Image of Tourmaline & Eucalyptus Bar Soap" class="mb-7">
+						<img itemprop="image" src="assets/img/product-img-violet.png" alt="Image of Tourmaline & Eucalyptus Bar Soap" class="mb-7">
 					</picture>
-					<h2 class="pb-7 font-bold text-xl leading-tight">Tourmaline & Eucalyptus Bar Soap</h2>
+					<h2 itemprop="name" class="pb-7 font-bold text-xl leading-tight">Tourmaline & Eucalyptus Bar Soap</h2>
 					<div class="flex flex-column items-center pb-5">
-						<span class="font-bold text-xl">$12.00</span>
+						<div itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+							<meta property="priceCurrency" content="USD">
+            				<span itemprop="price" class="font-bold text-xl" content="12.00">$12.00</span>
+						</div>
 						<input class="border border-gray-400 w-12 text-center ml-2" type="number" min="1" value="1" aria-label="Quantity">
 					</div>
 				</header>
@@ -135,20 +153,23 @@
 					<p class="text-[#787677] text-sm">Recarge your skin with the super energizing power of finely crusched tourmaline powder blended with natural complexion</p>
 				</div>
 				<footer class="flex flex-col items-center pt-2">
-					<button type="button" class="border-2 border-black text-lg bg-purple-100 hover:bg-purple-300 transition-colors py-2 px-5 mb-3">Add to cart</button>
+					<button type="button" class="border-2 border-black text-lg bg-purple-100 hover:bg-purple-300 transition-colors duration-300 py-2 px-5 mb-3">Add to cart</button>
 					<a href="#" class="underline hover:no-underline mb-4 text-lg">Learn More</a>
 				</footer>
 			</article>
 
-			<article class="p-7 border-[3px] border-black">
+			<article itemprop="itemListElement" itemtype="https://schema.org/Product" class="p-7 border-[3px] border-black productItem">
 				<header class="flex flex-col items-center sm:items-start">
 					<picture>
 						<source type="image/webp" srcset="assets/img/product-img-yellow.webp">
-						<img src="assets/img/product-img-yellow.png" alt="Image of Tourmaline & Eucalyptus Bar Soap" class="mb-7">
+						<img itemprop="image" src="assets/img/product-img-yellow.png" alt="Image of Tourmaline & Eucalyptus Bar Soap" class="mb-7">
 					</picture>
-					<h2 class="pb-7 font-bold text-xl leading-tight">Tourmaline & Eucalyptus Bar Soap</h2>
+					<h2 itemprop="name" class="pb-7 font-bold text-xl leading-tight">Tourmaline & Eucalyptus Bar Soap</h2>
 					<div class="flex flex-column items-center pb-5">
-						<span class="font-bold text-xl">$12.00</span>
+						<div itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+							<meta property="priceCurrency" content="USD">
+            				<span itemprop="price" class="font-bold text-xl" content="12.00">$12.00</span>
+						</div>
 						<input class="border border-gray-400 w-12 text-center ml-2" type="number" min="1" value="1" aria-label="Quantity">
 					</div>
 				</header>
@@ -156,7 +177,7 @@
 					<p class="text-[#787677] text-sm">Recarge your skin with the super energizing power of finely crusched tourmaline powder blended with natural complexion</p>
 				</div>
 				<footer class="flex flex-col items-center pt-2">
-					<button type="button" class="border-2 border-black text-lg bg-purple-100 hover:bg-purple-300 transition-colors py-2 px-5 mb-3">Add to cart</button>
+					<button type="button" class="border-2 border-black text-lg bg-purple-100 hover:bg-purple-300 transition-colors duration-300 py-2 px-5 mb-3">Add to cart</button>
 					<a href="#" class="underline hover:no-underline mb-4 text-lg">Learn More</a>
 				</footer>
 			</article>
